@@ -1,0 +1,76 @@
+/* css.css */
+
+body {
+    margin: 100;
+    padding: 200;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #9013fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.admin-login .login-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.admin-login h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.admin-login .form-group {
+    margin-bottom: 45px;
+    text-align: left;
+}
+
+.admin-login .form-group label {
+    display: block;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.admin-login .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 100;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.admin-login .form-group input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.admin-login .btn-submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: #6a11cb;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.admin-login .btn-submit:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+.admin-login .error-message {
+    margin-top: 10px;
+    color: #ffbaba;
+    font-size: 14px;
+}

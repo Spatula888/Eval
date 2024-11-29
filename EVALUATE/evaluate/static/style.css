@@ -1,0 +1,243 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* White background */
+    color: #333; /* Neutral black for text */
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #004aad; /* Blue for logo */
+}
+
+header .logo h1 span {
+    color: #c5a601; /* Gold accent for logo */
+}
+
+header .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+header .nav-links li {
+    margin: 0 15px;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333; /* Black for links */
+}
+
+header .nav-links a:hover {
+    color: #004aad; /* Blue hover effect */
+}
+
+/* Banner Section */
+.main-banner {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.main-banner h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #004aad; /* Blue for heading */
+}
+
+.main-banner h2 span {
+    color: #c5a601; /* Gold accent */
+}
+
+.main-banner p {
+    font-size: 18px;
+    color: #555; /* Gray for text */
+}
+
+.main-banner .btn-branches {
+    background-color: #c5a601; /* Gold button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-banner .btn-branches:hover {
+    background-color: #b59301; /* Darker gold hover */
+}
+
+/* Login Buttons */
+.login-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.login-buttons .btn-login {
+    background-color: #004aad; /* Blue background */
+    color: white;
+    padding: 15px 25px;
+    margin: 0 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-buttons .btn-login:hover {
+    background-color: #003a8c; /* Darker blue hover */
+}
+
+.login-buttons .btn-login button {
+    background-color: #c5a601; /* Gold button inside */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login-buttons .btn-login button:hover {
+    background-color: #b59301; /* Darker gold hover */
+}
+
+/* Footer */
+footer {
+    background-color: #f8f8f8;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 3px solid #c5a601; /* Gold accent */
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .footer-section h3 {
+    margin-bottom: 10px;
+    color: #004aad; /* Blue for headings */
+}
+
+footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-section ul li {
+    margin: 5px 0;
+}
+
+footer .footer-section a {
+    text-decoration: none;
+    color: #004aad; /* Blue for links */
+}
+
+footer .footer-section a:hover {
+    color: #c5a601; /* Gold hover */
+}
+
+/* Contact Info */
+footer .contact-us {
+    font-size: 14px;
+    color: #555;
+}
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav .logo {
+    display: inline-block;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+nav .nav-links {
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+nav .nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav .nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+section.dashboard-content {
+    padding: 40px;
+}
+
+.admin-features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
